@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColorLogo"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".RegisterActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Account-Info"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textview_UID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UserID">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvUid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColorLogo"
+            android:textColor="@color/textColorSecondary"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textview_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColorLogo"
+            android:textColor="@color/textColorSecondary"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textview_Vorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vorname">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvVorname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColorLogo"
+            android:textColor="@color/textColorSecondary"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textview_Nachname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nachname">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvNachname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColorLogo"
+            android:textColor="@color/textColorSecondary"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textview_Typ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Typ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tvTyp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundColorLogo"
+            android:textColor="@color/textColorSecondary"
+            android:enabled="false"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:text="Logout"
+        />
+</LinearLayout>

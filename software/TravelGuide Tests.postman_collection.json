@@ -1,0 +1,339 @@
+{
+	"info": {
+		"_postman_id": "ee414461-8066-4450-af08-2b1b2784c992",
+		"name": "TravelGuide Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Branchen",
+			"item": [
+				{
+					"name": "get all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n    \t\"id\": \"dab6a796-e9a9-48dc-b2db-205c360cc845\",\n        \"bezeichnunga\": \"test2_updatedk\"\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/brancheList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"brancheList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get by id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n    \t\"id\": \"dab6a796-e9a9-48dc-b2db-205c360cc845\",\n        \"bezeichnunga\": \"test2_updatedk\"\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/brancheDetail/dab6a796-e9a9-48dc-b2db-205c360cc845",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"brancheDetail",
+								"dab6a796-e9a9-48dc-b2db-205c360cc845"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create branche",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"bezeichnung\": \"testbranche\"\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/brancheDetail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"brancheDetail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteBranche",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/brancheDetail/4214f026-f9d6-4c1b-be65-776fabfe326f",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"brancheDetail",
+								"4214f026-f9d6-4c1b-be65-776fabfe326f"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Branche",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"bezeichnung\": \"update\",\n    \"id\": \"4214f026-f9d6-4c1b-be65-776fabfe326f\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/brancheDetail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"brancheDetail"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Locations",
+			"item": [
+				{
+					"name": "get all locations",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/locationList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"locationList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Location",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"b7ed811c-3cb2-4bf2-8990-c9a51bacef39\",\n        \"bezeichnung\": \"McDonalds_update\",\n        \"beschreibung\": \"Essen\",\n        \"aktiv\": true,\n        \"punkte\": 10,\n        \"besitzer\": {\n            \"id\": \"b717f71a-a902-4c1a-9fa9-659fc8c\"\n        },\n        \"koordinaten\": {\n            \"x\": 46.605269,\n            \"y\": 13.865765\n        }\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/locationDetail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"locationDetail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete Location",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\n        \"bezeichnung\": \"testbranche\"\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/locationList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"locationList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create location McDonalds",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"bezeichnung\": \"McDonalds 2\",\n        \"beschreibung\": \"Essen\",\n        \"aktiv\": true,\n        \"punkte\": 10,\n        \"besitzer\": {\n            \"id\": \"b717f71a-a902-4c1a-9fa9-659fc8c\"\n        },\n        \"koordinaten\": {\n            \"x\": 46.605269,\n            \"y\": 13.865765\n        }\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/locationDetail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"locationDetail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create location Racers",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"bezeichnung\": \"Racers\",\n        \"beschreibung\": \"Essen\",\n        \"aktiv\": true,\n        \"punkte\": 10,\n        \"besitzer\": {\n            \"id\": \"b717f71a-a902-4c1a-9fa9-659fc8c\"\n        },\n        \"koordinaten\": {\n            \"x\": 46.604796,\n            \"y\": 13.869666\n        }\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:8080/TravelAdvisor_WebServices/TravelGuide/locationDetail",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"TravelAdvisor_WebServices",
+								"TravelGuide",
+								"locationDetail"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

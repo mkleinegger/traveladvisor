@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "910506290287",
+    "firebase_url": "https://traveladvisor-77ab6.firebaseio.com",
+    "project_id": "traveladvisor-77ab6",
+    "storage_bucket": "traveladvisor-77ab6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910506290287:android:3e604e524b4731082c319a",
+        "android_client_info": {
+          "package_name": "com.example.traveladvisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "910506290287-fru17nja2i0h17de25m02laf619l65ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnFh3ZSZwxynnkpfO0e3ss7A1PX1J7LKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "910506290287-fru17nja2i0h17de25m02laf619l65ue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "910506290287-9kgjapsehcsqq4v3c3i72s2qv8klrbeb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.traveladvisor"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

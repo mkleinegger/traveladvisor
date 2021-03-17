@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TravelAdvisor</string>
+    <string name="access_token">pk.eyJ1IjoibWtsZWluZWdnZXIiLCJhIjoiY2syeDB1bXNuMDc3ZzNndGFvMnhhNDB0eSJ9.g36eaDLBy327_G9xTFVWKQ</string>
+
+    <!--Navigation-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TravelAdvisor</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--Actions-->
+    <string name="action_settings">Settings</string>
+
+    <!--Menus-->
+    <string name="menu_map">Karte</string>
+    <string name="menu_account">Account</string>
+
+    <!--Activity-->
+    <string name="title_activity_main">TravelAdvisor </string>
+
+    <!--Text-->
+    <string name="hello_blank_fragment">Usermanagement in kürze Verfügbar</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_profil">ProfilActivity</string>
+</resources>
